@@ -1,3 +1,10 @@
-stutter = input("Typ een zin: ")
-if len(set(stutter)) >= 3:
-    print(stutter[0:3] + "..." + " " + stutter[0:3] + "..." + " " + stutter)
+print("stotter sim")
+while True:
+    a = input("Antwoord hier ")
+    userlist = a.split()
+    for x in userlist:
+        if len(x) > 2:
+            print(x[0:2] + "...", x[0:2]+ "..." ,x )
+        else:
+            print(x)
+
